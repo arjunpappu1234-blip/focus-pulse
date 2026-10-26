@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <style>
+    body { width: 320px; padding: 15px; font-family: Arial, sans-serif; }
+    button { width: 100%; padding: 10px; margin: 5px 0; font-size: 16px; cursor: pointer; border: none; border-radius: 5px; background: #4CAF50; color: white; }
+    button.red { background: #f44336; }
+    #timer { font-size: 48px; text-align: center; margin: 20px 0; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center; color:#333;">FocusPulse</h2>
+  <div id="timer">25:00</div>
+  <button id="startBtn">Start Focus</button>
+  <button id="pauseBtn">Pause</button>
+  <button id="resetBtn">Reset</button>
+  <button class="red" id="clearData">Delete All My Data</button>
+  <p style="font-size:11px; text-align:center; margin-top:15px;"> Your data stays on this device only</p>
+  <script src="popup.js"></script>
+</body>
+</html>
